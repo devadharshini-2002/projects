@@ -1,0 +1,36 @@
+Credit Card Transactions – SQL Data Analysis
+
+Project Overview:
+    This project analyzes credit card transactions in India using SQL Server. The goal is to explore spending patterns, identify customer spending trends, and understand transaction behavior across cities, card types, and expense categories.
+
+Dataset:
+Source:     [Kaggle – Credit Card Transactions Dataset](https://www.kaggle.com/datasets/thedevastator/analyzing-credit-card-spending-habits-in-india)
+Table Name: credit_card_transactions`
+Database:   SQL Server
+
+
+SQL Concepts Used
+
+Aggregate Functions (SUM, COUNT)
+CTEs (Common Table Expressions)
+Window Functions (RANK,ROW_NUMBER,LAG)
+CASE WHEN
+Subqueries
+Date Functions (DATEPART,DATEDIFF)
+Data Type Conversion
+Percentage Calculations
+
+ Business Questions & Analysis
+
+1. Identified the top 5 cities with the highest credit card spending and their percentage contribution.
+2. Found the highest spending month for each card type.
+3. Identified the transaction at which cumulative spending reached ₹10,00,000 for each card type.
+4. Found the city with the lowest percentage of spending using Gold cards.
+5. Identified the highest and lowest spending expense categories for each city.
+6. Calculated female customers' percentage contribution to spending across expense categories.
+7. Identified the card type and expense category with the highest month-over-month spending growth in January 2014.
+8. Identified the city with the highest average transaction value during weekends.
+9. Found the city that took the fewest days to reach its 500th transaction.
+
+Project Outcome:
+Used SQL queries to analyze credit card spending patterns, compare spending across different categories, and identify city-wise and card-wise transaction trends.

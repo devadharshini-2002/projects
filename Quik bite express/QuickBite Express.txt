@@ -1,0 +1,80 @@
+QuickBite Express – Business Performance Analysis
+
+Project Overview:
+
+QuickBite Express is a Bengaluru-based food-tech startup founded in 2020. In June 2025, the company faced a food-safety incident and monsoon-related delivery disruptions.
+
+This project uses Power BI to compare business performance before and during the crisis.
+
+Analysis Period:
+
+   Pre-Crisis: January–May 2025
+   Crisis: June–September 2025
+
+Project Objectives:
+
+ Analyze changes in order volume and revenue.
+ Identify affected cities and restaurants.
+ Evaluate cancellation rates and delivery performance.
+ Track customer ratings and ordering behavior.
+ Identify changes in high-value customers.
+
+
+
+Data Model:
+
+The project uses fact and dimension tables:
+
+Fact Tables:
+ Orders
+ Ratings
+ Delivery Performance
+ Order Items
+
+Dimension Tables:
+ Customer
+ Restaurant
+ Delivery Partner Menu Item
+ Calendar
+
+Dashboard Analysis:
+
+1. Order Analysis:
+
+   Compare monthly orders before and during the crisis.
+   Identify cities and restaurants with the highest order decline.
+
+2. Cancellation Analysis:
+
+   Compare cancellation rates across both periods.
+   Analyze cancellation trends by month and city.
+
+3. Delivery & SLA Analysis:
+
+   Compare average delivery time across both periods.
+   Evaluate performance against the 36-minute SLA target.
+
+4. Customer & Rating Analysis:
+
+   Track monthly customer ratings.
+   Identify customers who stopped ordering.
+   Analyze changes in high-value customer behavior.
+ 
+5. Revenue Analysis:
+
+   Compare pre-crisis and crisis revenue.
+   Analyze revenue changes across months and restaurants.
+
+Key DAX Functions:
+
+     CALCULATE
+     FILTER
+     DIVIDE
+     RANKX
+     ALL
+     COUNTROWS
+     AVERAGE
+     COALESCE
+
+Project Outcome:
+      Created an interactive Power BI dashboard to analyze business performance and understand the impact of the crisis on orders, customers, delivery, and revenue.
